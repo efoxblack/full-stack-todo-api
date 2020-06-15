@@ -8,7 +8,7 @@ public class BcryptEncoderTest {
         BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
 
         for (int i = 1; i < 10; i++) {
-            String encodedString = encoder.encode("moment");
+            String encodedString = encoder.encode("Chadres_1");
             System.out.println(encodedString);
         }
     }

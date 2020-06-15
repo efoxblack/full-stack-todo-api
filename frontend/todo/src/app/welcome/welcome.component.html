@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container text-center">
   <h1>Welcome {{ name }}!</h1>
   <h3>You can manage your todos <a routerLink="/todos">here</a></h3>
 
@@ -7,7 +7,7 @@
 </div>
 
 
-<div class="container" *ngIf="welcomeMessageFromService">
+<div class="container text-center" *ngIf="welcomeMessageFromService">
     <h2>Your Customized Welcome Message</h2>
     <p>{{ welcomeMessageFromService }}</p>
 </div>
